@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Saved Information Auto Fills in Checkout">
+    <parameter name="userName" value="John Smith"/>
+    <parameter name="country" value="Costa Rica"/>
+    <parameter name="shoesName" value="Jordan 6 Rings"/>
+    <test name="Verify user can fill startup form">
+        <classes>
+            <class name="tests.Test_AddToCart"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
